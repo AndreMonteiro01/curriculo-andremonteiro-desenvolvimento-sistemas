@@ -1,0 +1,79 @@
+body{
+  background-color: #faf9f9; 
+}
+
+.cabecalho {
+  background-color: #424141;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 10px 0 auto;  
+}
+
+#perfil {
+  list-style: none;
+}
+
+.main {
+  margin-left: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul li {
+  margin-left: -20px;
+}
+svg {
+  width: 25px;
+  height: 50px;
+}
+
+#email svg {
+  fill: #57aef5;
+}
+
+#whatsapp svg {
+  fill: #72e46e;
+}
+
+#linkedin svg , a {
+  fill: #1149e4;
+  text-decoration: none;
+  color: white;
+}
+
+#gitHub svg, a {
+  fill: black;
+}
+
+#localizacao svg {
+  fill: red;
+}
+
+#topicos {
+  font-family: 'Roboto', sans-serif;
+  color: rebeccapurple;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+@media (max-width: 700px) {
+  .cabecalho {
+    display: flex;
+    flex-direction: column;
+  }
+}
